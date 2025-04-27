@@ -1,13 +1,13 @@
 #include<stdio.h>
 void main()
 {
-int num;
+int num,sum=0;
 scanf("%d",&num);
 for (int num1=1;num1<num;num++)
 {
 if(num%num1==0)
 {
-int sum=sum+num1;
+ sum=sum+num1;
 }
 }
 if(num==sum)
